@@ -35,26 +35,7 @@ h1 {
  
  }
 
-h1basic {
-  background-color: #e2e2e2;
-  padding: 5px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-  text-align: left;
- 
- 
- }
- 
- h2basic {
-  background-color: #e2e2e2;
-  padding: 5px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-  
- 
- }
+
 
 /* Link Styles */
 
@@ -68,6 +49,21 @@ a:hover {
 
 
 /* Specific Image Classes */
+
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: 3px solid #ffccff;
+  transition: all .5s;
+}
+
+
+header .profile-image:hover {
+  transform: scale(1.5) rotate(360deg);
+}
 
 .photoicon {
 
@@ -118,6 +114,8 @@ a:hover {
   color: #f477de;
 }
 
+/* Header (General) */
+
 header {
   text-align: center;
   background: url('images/mushroom.jpg') no-repeat top center;
@@ -129,17 +127,11 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.5) rotate(360deg);
-}
+
+
+/* Body */
+
+
 .tag {
   background-color: #d3cad0;
   color: #000000;
@@ -214,6 +206,9 @@ footer ul li {
   display: inline-block;
 }
 
+
+/* Footer Social Media */
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -243,6 +238,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
+
 @media screen and (min-width: 720px) {
   
   .flex {

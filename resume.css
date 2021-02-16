@@ -72,7 +72,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #ffccff;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -113,7 +113,7 @@ header {
 .contact{
   margin: 20px;
   padding: 20px 40px 20px;
-  max-width: auto;
+  max-width: none;
   text-align: left;
   background: #f8f8f8;
   border-bottom: 4px solid #ccc;
